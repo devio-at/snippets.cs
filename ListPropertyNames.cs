@@ -49,7 +49,7 @@ namespace ListPropertyNames
             var actualSql = "SELECT "
                             + EnumerateColumns<Supplier>("s", "Supplier", s => s.Id, s => s.Name)
                             + ", "
-                            + EnumerateColumns<Address>("a", "Address", a => a.ZipCode, a => a.City, a => a.City)
+                            + EnumerateColumns<Address>("a", "Address", a => a.ZipCode, a => a.City, a => a.Street)
                             + @"
 FROM " + nameof(Supplier) + @" s
 INNER JOIN " + nameof(Address) + " a ON s." + nameof(Supplier.AddressId) + " = a." + nameof(Address.Id);

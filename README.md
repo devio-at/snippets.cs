@@ -4,7 +4,7 @@
 | ---- | ---- |
 | NHibernateStringComparison.cs | [NHibernate String Comparison](https://devio.wordpress.com/2012/08/20/nhibernate-string-comparison/) (2012) |
 | HtmlHelper.For.cs | implement `@Html.For()` to support custom form model class (2011) |
-| ListPropertyNames.cs |  (2021) |
+| ListPropertyNames.cs | [Constructing Type-Safe SQL Statements from ORM Classes](https://devio.wordpress.com/2021/08/27/constructing-type-safe-sql-statements-from-orm-classes/)  (2021) |
 
 ### Html.For.cs
 
