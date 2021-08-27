@@ -52,7 +52,7 @@ namespace ListPropertyNames
                             + EnumerateColumns<Address>("a", "Address", a => a.ZipCode, a => a.City, a => a.City)
                             + @"
 FROM " + nameof(Supplier) + @" s
-INNER JOIN " + nameof(Address) + " a ON s." + nameof(Supplier.AddressId) + " = a." + nameof(Addresse.Id);
+INNER JOIN " + nameof(Address) + " a ON s." + nameof(Supplier.AddressId) + " = a." + nameof(Address.Id);
 
             Console.WriteLine(actualSql);
         }
